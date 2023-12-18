@@ -1,0 +1,572 @@
+{
+  "id": "0x15b6f28",
+  "kind": "TranslationUnitDecl",
+  "loc": {},
+  "range": {
+    "begin": {},
+    "end": {}
+  },
+  "inner": [
+    {
+      "id": "0x15b7750",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__int128_t",
+      "type": {
+        "qualType": "__int128"
+      },
+      "inner": [
+        {
+          "id": "0x15b74f0",
+          "kind": "BuiltinType",
+          "type": {
+            "qualType": "__int128"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x15b77c0",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__uint128_t",
+      "type": {
+        "qualType": "unsigned __int128"
+      },
+      "inner": [
+        {
+          "id": "0x15b7510",
+          "kind": "BuiltinType",
+          "type": {
+            "qualType": "unsigned __int128"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x15b7ac8",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__NSConstantString",
+      "type": {
+        "qualType": "struct __NSConstantString_tag"
+      },
+      "inner": [
+        {
+          "id": "0x15b78a0",
+          "kind": "RecordType",
+          "type": {
+            "qualType": "struct __NSConstantString_tag"
+          },
+          "decl": {
+            "id": "0x15b7818",
+            "kind": "RecordDecl",
+            "name": "__NSConstantString_tag"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x15b7b60",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__builtin_ms_va_list",
+      "type": {
+        "qualType": "char *"
+      },
+      "inner": [
+        {
+          "id": "0x15b7b20",
+          "kind": "PointerType",
+          "type": {
+            "qualType": "char *"
+          },
+          "inner": [
+            {
+              "id": "0x15b6fd0",
+              "kind": "BuiltinType",
+              "type": {
+                "qualType": "char"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0x15b7e58",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__builtin_va_list",
+      "type": {
+        "qualType": "struct __va_list_tag[1]"
+      },
+      "inner": [
+        {
+          "id": "0x15b7e00",
+          "kind": "ConstantArrayType",
+          "type": {
+            "qualType": "struct __va_list_tag[1]"
+          },
+          "size": 1,
+          "inner": [
+            {
+              "id": "0x15b7c40",
+              "kind": "RecordType",
+              "type": {
+                "qualType": "struct __va_list_tag"
+              },
+              "decl": {
+                "id": "0x15b7bb8",
+                "kind": "RecordDecl",
+                "name": "__va_list_tag"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0x161cae0",
+      "kind": "VarDecl",
+      "loc": {
+        "offset": 45,
+        "file": "helloWorld.c",
+        "line": 3,
+        "col": 23,
+        "tokLen": 11
+      },
+      "range": {
+        "begin": {
+          "offset": 23,
+          "col": 1,
+          "tokLen": 8
+        },
+        "end": {
+          "offset": 59,
+          "col": 37,
+          "tokLen": 7
+        }
+      },
+      "isUsed": true,
+      "name": "global_int1",
+      "mangledName": "global_int1",
+      "type": {
+        "qualType": "volatile unsigned int"
+      },
+      "init": "c",
+      "inner": [
+        {
+          "id": "0x161cb90",
+          "kind": "IntegerLiteral",
+          "range": {
+            "begin": {
+              "offset": 59,
+              "col": 37,
+              "tokLen": 7
+            },
+            "end": {
+              "offset": 59,
+              "col": 37,
+              "tokLen": 7
+            }
+          },
+          "type": {
+            "qualType": "unsigned int"
+          },
+          "valueCategory": "prvalue",
+          "value": "23130"
+        }
+      ]
+    },
+    {
+      "id": "0x161cbc8",
+      "kind": "VarDecl",
+      "loc": {
+        "offset": 90,
+        "line": 4,
+        "col": 23,
+        "tokLen": 16
+      },
+      "range": {
+        "begin": {
+          "offset": 68,
+          "col": 1,
+          "tokLen": 8
+        },
+        "end": {
+          "offset": 109,
+          "col": 42,
+          "tokLen": 7
+        }
+      },
+      "isUsed": true,
+      "name": "global_sink_int1",
+      "mangledName": "global_sink_int1",
+      "type": {
+        "qualType": "volatile unsigned int"
+      },
+      "init": "c",
+      "inner": [
+        {
+          "id": "0x161cc30",
+          "kind": "IntegerLiteral",
+          "range": {
+            "begin": {
+              "offset": 109,
+              "col": 42,
+              "tokLen": 7
+            },
+            "end": {
+              "offset": 109,
+              "col": 42,
+              "tokLen": 7
+            }
+          },
+          "type": {
+            "qualType": "unsigned int"
+          },
+          "valueCategory": "prvalue",
+          "value": "65535"
+        }
+      ]
+    },
+    {
+      "id": "0x161cc68",
+      "kind": "VarDecl",
+      "loc": {
+        "offset": 141,
+        "line": 5,
+        "col": 24,
+        "tokLen": 12
+      },
+      "range": {
+        "begin": {
+          "offset": 118,
+          "col": 1,
+          "tokLen": 8
+        },
+        "end": {
+          "offset": 156,
+          "col": 39,
+          "tokLen": 5
+        }
+      },
+      "name": "global_byte1",
+      "mangledName": "global_byte1",
+      "type": {
+        "qualType": "volatile unsigned char"
+      },
+      "init": "c",
+      "inner": [
+        {
+          "id": "0x161ccf0",
+          "kind": "ImplicitCastExpr",
+          "range": {
+            "begin": {
+              "offset": 156,
+              "col": 39,
+              "tokLen": 5
+            },
+            "end": {
+              "offset": 156,
+              "col": 39,
+              "tokLen": 5
+            }
+          },
+          "type": {
+            "qualType": "unsigned char"
+          },
+          "valueCategory": "prvalue",
+          "castKind": "IntegralCast",
+          "inner": [
+            {
+              "id": "0x161ccd0",
+              "kind": "IntegerLiteral",
+              "range": {
+                "begin": {
+                  "offset": 156,
+                  "col": 39,
+                  "tokLen": 5
+                },
+                "end": {
+                  "offset": 156,
+                  "col": 39,
+                  "tokLen": 5
+                }
+              },
+              "type": {
+                "qualType": "unsigned int"
+              },
+              "valueCategory": "prvalue",
+              "value": "250"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0x161cdd0",
+      "kind": "FunctionDecl",
+      "loc": {
+        "offset": 169,
+        "line": 8,
+        "col": 5,
+        "tokLen": 4
+      },
+      "range": {
+        "begin": {
+          "offset": 165,
+          "col": 1,
+          "tokLen": 3
+        },
+        "end": {
+          "offset": 290,
+          "line": 13,
+          "col": 1,
+          "tokLen": 1
+        }
+      },
+      "name": "main",
+      "mangledName": "main",
+      "type": {
+        "qualType": "int (void)"
+      },
+      "inner": [
+        {
+          "id": "0x161cfd8",
+          "kind": "CompoundStmt",
+          "range": {
+            "begin": {
+              "offset": 180,
+              "line": 8,
+              "col": 16,
+              "tokLen": 1
+            },
+            "end": {
+              "offset": 290,
+              "line": 13,
+              "col": 1,
+              "tokLen": 1
+            }
+          },
+          "inner": [
+            {
+              "id": "0x161cf18",
+              "kind": "DeclStmt",
+              "range": {
+                "begin": {
+                  "offset": 183,
+                  "line": 9,
+                  "col": 2,
+                  "tokLen": 3
+                },
+                "end": {
+                  "offset": 188,
+                  "col": 7,
+                  "tokLen": 1
+                }
+              },
+              "inner": [
+                {
+                  "id": "0x161ceb0",
+                  "kind": "VarDecl",
+                  "loc": {
+                    "offset": 187,
+                    "col": 6,
+                    "tokLen": 1
+                  },
+                  "range": {
+                    "begin": {
+                      "offset": 183,
+                      "col": 2,
+                      "tokLen": 3
+                    },
+                    "end": {
+                      "offset": 187,
+                      "col": 6,
+                      "tokLen": 1
+                    }
+                  },
+                  "name": "i",
+                  "type": {
+                    "qualType": "int"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "0x161cf88",
+              "kind": "BinaryOperator",
+              "range": {
+                "begin": {
+                  "offset": 191,
+                  "line": 10,
+                  "col": 2,
+                  "tokLen": 16
+                },
+                "end": {
+                  "offset": 221,
+                  "col": 32,
+                  "tokLen": 2
+                }
+              },
+              "type": {
+                "qualType": "unsigned int"
+              },
+              "valueCategory": "prvalue",
+              "opcode": "=",
+              "inner": [
+                {
+                  "id": "0x161cf30",
+                  "kind": "DeclRefExpr",
+                  "range": {
+                    "begin": {
+                      "offset": 191,
+                      "col": 2,
+                      "tokLen": 16
+                    },
+                    "end": {
+                      "offset": 191,
+                      "col": 2,
+                      "tokLen": 16
+                    }
+                  },
+                  "type": {
+                    "qualType": "volatile unsigned int"
+                  },
+                  "valueCategory": "lvalue",
+                  "referencedDecl": {
+                    "id": "0x161cbc8",
+                    "kind": "VarDecl",
+                    "name": "global_sink_int1",
+                    "type": {
+                      "qualType": "volatile unsigned int"
+                    }
+                  }
+                },
+                {
+                  "id": "0x161cf70",
+                  "kind": "UnaryOperator",
+                  "range": {
+                    "begin": {
+                      "offset": 210,
+                      "col": 21,
+                      "tokLen": 11
+                    },
+                    "end": {
+                      "offset": 221,
+                      "col": 32,
+                      "tokLen": 2
+                    }
+                  },
+                  "type": {
+                    "qualType": "unsigned int"
+                  },
+                  "valueCategory": "prvalue",
+                  "isPostfix": true,
+                  "opcode": "++",
+                  "inner": [
+                    {
+                      "id": "0x161cf50",
+                      "kind": "DeclRefExpr",
+                      "range": {
+                        "begin": {
+                          "offset": 210,
+                          "col": 21,
+                          "tokLen": 11
+                        },
+                        "end": {
+                          "offset": 210,
+                          "col": 21,
+                          "tokLen": 11
+                        }
+                      },
+                      "type": {
+                        "qualType": "volatile unsigned int"
+                      },
+                      "valueCategory": "lvalue",
+                      "referencedDecl": {
+                        "id": "0x161cae0",
+                        "kind": "VarDecl",
+                        "name": "global_int1",
+                        "type": {
+                          "qualType": "volatile unsigned int"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0x161cfc8",
+              "kind": "ReturnStmt",
+              "range": {
+                "begin": {
+                  "offset": 280,
+                  "line": 12,
+                  "col": 2,
+                  "tokLen": 6
+                },
+                "end": {
+                  "offset": 287,
+                  "col": 9,
+                  "tokLen": 1
+                }
+              },
+              "inner": [
+                {
+                  "id": "0x161cfa8",
+                  "kind": "IntegerLiteral",
+                  "range": {
+                    "begin": {
+                      "offset": 287,
+                      "col": 9,
+                      "tokLen": 1
+                    },
+                    "end": {
+                      "offset": 287,
+                      "col": 9,
+                      "tokLen": 1
+                    }
+                  },
+                  "type": {
+                    "qualType": "int"
+                  },
+                  "valueCategory": "prvalue",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

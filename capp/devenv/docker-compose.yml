@@ -1,0 +1,30 @@
+version: "3.8"
+
+networks:
+  cappnet:
+    name: cappnet
+  
+services:
+  # #######################
+  # C Application runner service
+  # #######################
+  capp:
+    build:
+      context: ..
+      dockerfile: ./devenv/Dockerfile
+      target: development
+    image: sergiunagy/dev-capp
+    container_name: dev-capp
+    # mount volumes for hot reloads
+    volumes:
+      # - "../src:/home/app/src"
+      - "../src_canfr:/home/app/src"
+      - "../out:/home/app/out"
+      - "../tools:/home/app/tools"
+    networks:
+      cappnet:
+        aliases:
+          - capp-server
+    profiles: [ "dev", "test" ]
+
+    # RUN WITH: docker compose run --rm capp bash

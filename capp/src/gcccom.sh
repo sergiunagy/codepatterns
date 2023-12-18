@@ -1,0 +1,1 @@
+gcc -fdump-tree-all-raw-slim=../out/capp.ast helloWorld.c -o ../out/capp

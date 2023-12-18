@@ -1,0 +1,293 @@
+// "id": "0x18be410",
+// "kind": "CompoundStmt",
+// "range": {
+//   "begin": {
+//     "offset": 5085,
+//     "line": 181,
+//     "col": 5,
+//     "tokLen": 1
+//   },
+//   "end": {
+//     "offset": 5449,
+//     "line": 191,
+//     "col": 5,
+//     "tokLen": 1
+//   }
+// },
+"inner": [
+  {
+    "id": "0x18be3f0",
+    "kind": "BinaryOperator",
+    "range": {
+      "begin": {
+        "offset": 5328,
+        "line": 188,
+        "col": 9,
+        "tokLen": 1
+      },
+      "end": {
+        "offset": 5372,
+        "col": 53,
+        "tokLen": 1
+      }
+    },
+    "type": {
+      "desugaredQualType": "unsigned short",
+      "qualType": "uint16_T",
+      "typeAliasDeclId": "0x1784098"
+    },
+    "valueCategory": "prvalue",
+    "opcode": "=",
+    "inner": [
+      {
+        "id": "0x18be2d0",
+        "kind": "UnaryOperator",
+        "range": {
+          "begin": {
+            "offset": 5328,
+            "col": 9,
+            "tokLen": 1
+          },
+          "end": {
+            "offset": 5329,
+            "col": 10,
+            "tokLen": 9
+          }
+        },
+        "type": {
+          "desugaredQualType": "unsigned short",
+          "qualType": "uint16_T",
+          "typeAliasDeclId": "0x1784098"
+        },
+        "valueCategory": "lvalue",
+        "isPostfix": false,
+        "opcode": "*",
+        "canOverflow": false,
+        "inner": [
+          {
+            "id": "0x18be2b8",
+            "kind": "ImplicitCastExpr",
+            "range": {
+              "begin": {
+                "offset": 5329,
+                "col": 10,
+                "tokLen": 9
+              },
+              "end": {
+                "offset": 5329,
+                "col": 10,
+                "tokLen": 9
+              }
+            },
+            "type": {
+              "qualType": "uint16_T *"
+            },
+            "valueCategory": "prvalue",
+            "castKind": "LValueToRValue",
+            "inner": [
+              {
+                "id": "0x18be298",
+                "kind": "DeclRefExpr",
+                "range": {
+                  "begin": {
+                    "offset": 5329,
+                    "col": 10,
+                    "tokLen": 9
+                  },
+                  "end": {
+                    "offset": 5329,
+                    "col": 10,
+                    "tokLen": 9
+                  }
+                },
+                "type": {
+                  "qualType": "uint16_T *"
+                },
+                "valueCategory": "lvalue",
+                "referencedDecl": {
+                  "id": "0x18bde80",
+                  "kind": "ParmVarDecl",
+                  "name": "rty_noErr",
+                  "type": {
+                    "qualType": "uint16_T *"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0x18be3c8",
+        "kind": "CStyleCastExpr",
+        "range": {
+          "begin": {
+            "offset": 5341,
+            "col": 22,
+            "tokLen": 1
+          },
+          "end": {
+            "offset": 5372,
+            "col": 53,
+            "tokLen": 1
+          }
+        },
+        "type": {
+          "desugaredQualType": "unsigned short",
+          "qualType": "uint16_T",
+          "typeAliasDeclId": "0x1784098"
+        },
+        "valueCategory": "prvalue",
+        "castKind": "IntegralCast",
+        "inner": [
+          {
+            "id": "0x18be3a8",
+            "kind": "ParenExpr",
+            "range": {
+              "begin": {
+                "offset": 5351,
+                "col": 32,
+                "tokLen": 1
+              },
+              "end": {
+                "offset": 5372,
+                "col": 53,
+                "tokLen": 1
+              }
+            },
+            "type": {
+              "qualType": "unsigned int"
+            },
+            "valueCategory": "prvalue",
+            "inner": [
+              {
+                "id": "0x18be358",
+                "kind": "BinaryOperator",
+                "range": {
+                  "begin": {
+                    "offset": 5352,
+                    "col": 33,
+                    "tokLen": 15
+                  },
+                  "end": {
+                    "offset": 5370,
+                    "col": 51,
+                    "tokLen": 2
+                  }
+                },
+                "type": {
+                  "qualType": "unsigned int"
+                },
+                "valueCategory": "prvalue",
+                "opcode": "+",
+                "inner": [
+                  {
+                    "id": "0x18be340",
+                    "kind": "ImplicitCastExpr",
+                    "range": {
+                      "begin": {
+                        "offset": 5352,
+                        "col": 33,
+                        "tokLen": 15
+                      },
+                      "end": {
+                        "offset": 5352,
+                        "col": 33,
+                        "tokLen": 15
+                      }
+                    },
+                    "type": {
+                      "qualType": "unsigned int"
+                    },
+                    "valueCategory": "prvalue",
+                    "castKind": "IntegralCast",
+                    "inner": [
+                      {
+                        "id": "0x18be328",
+                        "kind": "ImplicitCastExpr",
+                        "range": {
+                          "begin": {
+                            "offset": 5352,
+                            "col": 33,
+                            "tokLen": 15
+                          },
+                          "end": {
+                            "offset": 5352,
+                            "col": 33,
+                            "tokLen": 15
+                          }
+                        },
+                        "type": {
+                          "desugaredQualType": "unsigned short",
+                          "qualType": "uint16_T",
+                          "typeAliasDeclId": "0x1784098"
+                        },
+                        "valueCategory": "prvalue",
+                        "castKind": "LValueToRValue",
+                        "inner": [
+                          {
+                            "id": "0x18be2e8",
+                            "kind": "DeclRefExpr",
+                            "range": {
+                              "begin": {
+                                "offset": 5352,
+                                "col": 33,
+                                "tokLen": 15
+                              },
+                              "end": {
+                                "offset": 5352,
+                                "col": 33,
+                                "tokLen": 15
+                              }
+                            },
+                            "type": {
+                              "desugaredQualType": "unsigned short",
+                              "qualType": "uint16_T",
+                              "typeAliasDeclId": "0x1784098"
+                            },
+                            "valueCategory": "lvalue",
+                            "referencedDecl": {
+                              "id": "0x18bde08",
+                              "kind": "ParmVarDecl",
+                              "name": "rtu_noErrBefore",
+                              "type": {
+                                "desugaredQualType": "unsigned short",
+                                "qualType": "uint16_T",
+                                "typeAliasDeclId": "0x1784098"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "0x18be308",
+                    "kind": "IntegerLiteral",
+                    "range": {
+                      "begin": {
+                        "offset": 5370,
+                        "col": 51,
+                        "tokLen": 2
+                      },
+                      "end": {
+                        "offset": 5370,
+                        "col": 51,
+                        "tokLen": 2
+                      }
+                    },
+                    "type": {
+                      "qualType": "unsigned int"
+                    },
+                    "valueCategory": "prvalue",
+                    "value": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

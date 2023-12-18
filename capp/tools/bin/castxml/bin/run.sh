@@ -1,0 +1,1 @@
+./castxml --castxml-cc-gnu-c /usr/bin/gcc --castxml-output=1 helloWorld.c -o ast.xml

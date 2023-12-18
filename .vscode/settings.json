@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cap_canapi.h": "c",
+        "pwr_computeenginepower.h": "c",
+        "mai_main.h": "c"
+    }
+}
