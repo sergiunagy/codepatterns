@@ -1,0 +1,51 @@
+# #############################
+# Definition of SW infrastructure for the Angular app
+# Defines:
+# - services
+# - networks
+# - volumes
+# Uses profiles to control what configurations launch, depending on the user-scenario
+# ---------------------------
+# Dev:
+# - frontend
+# ------------------------------
+# Test:
+# - not done
+# ##############################
+version: "3.8"
+
+networks:
+  frontnet:
+    name: frontnet
+  backnet:
+    name: backnet
+
+services:
+  # #######################
+  # Frontend UI service
+  # #######################
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: ./deploy/Dockerfile
+      target: development      
+      no_cache: true
+    image: sergiunb/copat-angular-ui
+    working_dir: /home/node/app/copat
+    container_name: dev-copat-web-ui
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - "../frontend/app:/home/node/app"
+      - /home/node/app/copat/node_modules # get the pre-installed npm modules to local folders.
+    networks:
+      - frontnet
+    ports:
+      - "8000:4200"
+
+    profiles: [ "dev", "test"]
+
+    # change to project folder and start serving the app -> use 0.0.0.0 as host since the default is a loopback
+    # Note: hot-reload is enabled by default
+    command: [ "sh", "-c", "ng serve --port 4200 --host 0.0.0.0" ]
+
